@@ -1,15 +1,20 @@
 $(document).ready(function() {
 
-    var firebaseConfig = {
-      apiKey: "AIzaSyBVluUOPmJyDmwJp9rCnO5dRUIDSQs1U2E",
-      authDomain: "trains-2a05d.firebaseapp.com",
-      databaseURL: "https://trains-2a05d.firebaseio.com",
-      projectId: "trains-2a05d",
-      messagingSenderId: "542654922116",
-      appId: "1:542654922116:web:decda5be73473f954f31d1"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+  var firebaseConfig = {
+    apiKey: "AIzaSyBtRfUJ1_b1ynl2uDr17qxCjocj_C5wSyg",
+    authDomain: "projectname1-45940.firebaseapp.com",
+    databaseURL: "https://projectname1-45940.firebaseio.com",
+    projectId: "projectname1-45940",
+    messagingSenderId: "13245680894",
+    appId: "1:13245680894:web:b8b996f1fe94d97d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+// create a reference to the Firebase Realtime Database
+var db = firebase.database();
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+    
     console.log(firebase);
     let database = firebase.database();
     let ref = database.ref('trains');
